@@ -1,0 +1,17 @@
+This version of µWS is not compatible with your Node.js build:
+
+Error: Cannot find module '../binaries/uws_linux_x64_137.node'
+Require stack:
+- /home/jaudy/.npm-global/lib/node_modules/ganache/node_modules/@trufflesuite/uws-js-unofficial/src/uws.js
+- /home/jaudy/.npm-global/lib/node_modules/ganache/dist/node/cli.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+ganache v7.9.2 (@ganache/cli: 0.10.2, @ganache/core: 0.10.2)
+Starting RPC server
+OpenError: IO error: lock ./db/LOCK: Resource temporarily unavailable
+    at /home/jaudy/.npm-global/lib/node_modules/ganache/dist/node/0.js:2:186179
+    at /home/jaudy/.npm-global/lib/node_modules/ganache/node_modules/abstract-leveldown/abstract-leveldown.js:41:14
+    at onopen (/home/jaudy/.npm-global/lib/node_modules/ganache/dist/node/0.js:2:1342672)
+    at /home/jaudy/.npm-global/lib/node_modules/ganache/node_modules/abstract-leveldown/abstract-leveldown.js:41:14
+    at /home/jaudy/.npm-global/lib/node_modules/ganache/node_modules/abstract-leveldown/abstract-leveldown.js:41:14
