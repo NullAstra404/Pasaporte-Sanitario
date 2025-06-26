@@ -1,13 +1,29 @@
-# Sample Hardhat Project
+# 🧬 Pasaporte Sanitario con Blockchain
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Este proyecto implementa un sistema distribuido que permite emitir, verificar y revocar **certificados médicos digitales** en una blockchain simulada usando **Smart Contracts en Solidity**, **Ganache**, **MetaMask**, y una **interfaz web con Web3/Ethers.js**.
 
-Try running some of the following tasks:
+## 📌 Objetivos
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+- Proteger la **confidencialidad e integridad** de certificados sanitarios mediante hashing.
+- Garantizar el **no repudio** gracias al uso de contratos inteligentes.
+- Simular el acceso distribuido de ciudadanos y autoridades con cuentas de MetaMask.
+
+## ⚙️ Tecnologías Utilizadas
+
+- [Solidity](https://soliditylang.org/) para los contratos inteligentes.
+- [Hardhat](https://hardhat.org/) para despliegue local en Ganache.
+- [Ganache](https://trufflesuite.com/ganache/) como red blockchain simulada.
+- [MetaMask](https://metamask.io/) como cliente de usuario.
+- `ethers.js` para interacción con contratos en la web.
+- `Python + Web3.py` para verificación desde scripts.
+- `hashlib` para cálculo local de hash de documentos.
+
+## 🚀 Funcionalidades
+
+- ✅ Emisión de certificados médicos con hash SHA-256.
+- 🔍 Verificación desde la web o por línea de comandos.
+- ❌ Revocación de certificados inválidos.
+- 🧪 Pruebas funcionales locales usando cuentas de Ganache y Metamask.
+
+## 📂 Estructura del Proyecto
+
