@@ -26,4 +26,37 @@ Este proyecto implementa un sistema distribuido que permite emitir, verificar y 
 - 🧪 Pruebas funcionales locales usando cuentas de Ganache y Metamask.
 
 ## 📂 Estructura del Proyecto
+pasaporte-sanitario/
+├── contracts/ # Contrato PasaporteSanitario.sol
+├── scripts/ # Scripts de despliegue
+├── web/ # Interfaz web con HTML + JS
+├── verificar_certificado.py # Script para verificar certificados en Python
+├── verificar_hash_archivo.py # Script para calcular hash de archivos
+├── abi.json # ABI generado para interacción con el contrato
+└── README.md # Este archivo
+
+
+## 🧪 Instrucciones rápidas
+
+### 🔧 1. Instalar dependencias
+
+```bash
+npm install
+
+🚀 2. Iniciar Ganache y desplegar el contrato
+bash
+Copiar
+Editar
+npx hardhat node
+npx hardhat run scripts/deploy.js --network localhost
+
+🌐 3. Abrir la interfaz web
+Abre el archivo web/index.html con un servidor local (ej. live-server o python3 -m http.server).
+
+🧪 4. Verificar por consola
+bash
+Copiar
+Editar
+python verificar_certificado.py <direccion>
+
 
