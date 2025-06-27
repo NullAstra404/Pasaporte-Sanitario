@@ -59,4 +59,14 @@ Copiar
 Editar
 python verificar_certificado.py <direccion>
 
+## 🎥 Video de demostración
+
+Puedes ver una demostración funcional del sistema en el siguiente enlace:
+
+🔗 [https://youtu.be/uidyR1Fbr4c](https://youtu.be/uidyR1Fbr4c)
+
+También puedes escanear este código QR para acceder directamente:
+
+     ![CodigoQRYoutube](https://github.com/user-attachments/assets/8f75d74a-23ce-492d-8083-e09888b223c9)
+   (./docs/CodigoQRYoutube.png)
 
