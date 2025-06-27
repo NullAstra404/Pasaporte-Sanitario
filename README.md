@@ -64,7 +64,5 @@ Puedes ver una demostración funcional del sistema en el siguiente enlace:
 
 🔗 [https://youtu.be/uidyR1Fbr4c](https://youtu.be/uidyR1Fbr4c)
 
-También puedes escanear este código QR para acceder directamente:
 
-![QR del video](./docs/CodigoQRYoutube.png)
 
